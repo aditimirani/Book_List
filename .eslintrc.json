@@ -1,0 +1,7 @@
+{
+    "parser": "babel-eslint",
+     "rules": {
+        "prop-types": [0],
+        "no-console": ["error", { "allow": ["warn", "error", "info"] }]
+    }
+  }
