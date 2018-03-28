@@ -24,7 +24,7 @@ export const Element = props => {
     desktopOffset = 0
   } = props
   return (
-    <ElementRoot
+    <ElementR
       {...props}
       xs={mobile}
       sm={tablet || mobile}
@@ -36,6 +36,6 @@ export const Element = props => {
       lgOffset={desktopOffset}
     >
       {children}
-    </ElementRoot>
+    </ElementR>
   )
 }
